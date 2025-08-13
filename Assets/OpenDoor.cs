@@ -16,6 +16,7 @@ public class OpenDoor : MonoBehaviour
     {
         closedPosition = transform.position;
         openPosition = transform.position + positionDelta;
+        startTime = Time.time;
     }
 
     // Update is called once per frame
@@ -52,4 +53,4 @@ public class OpenDoor : MonoBehaviour
     }
         
     }
-}
+
